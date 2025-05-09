@@ -41,3 +41,12 @@
 git clone https://github.com/yourusername/ai-quiz-generator.git
 cd ai-quiz-generator
 pip install -r requirements.txt
+
+```
+
+## 🔧 Configuration
+
+Create a file named `.env.local` in the `quizgenie-ai` directory and add your OpenAI API key in this format:
+
+```
+OPENAI_API_KEY=your-api-key-here
